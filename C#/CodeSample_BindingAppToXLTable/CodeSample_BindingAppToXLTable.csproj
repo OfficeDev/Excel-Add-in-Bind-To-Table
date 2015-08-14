@@ -47,8 +47,7 @@
     <Content Include="CodeSample_BindingAppToXLTableManifest\CodeSample_BindingAppToXLTable.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
-    <None Include="CodeSample_BindingAppToXLTableManifest\Ticker.xlsx" />
-    <None Include="Copy of Book1.xlsx" />
+    <None Include="Stocks.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeSample_BindingAppToXLTableWeb\CodeSample_BindingAppToXLTableWeb.csproj">
