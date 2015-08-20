@@ -64,6 +64,7 @@ If the app generates errors whenever you try to update the table, ensure that yo
 
 **Related content**
 
+* [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 * [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/en-us/library/office/apps/fp123511.aspx)
 * [Bindings object](http://msdn.microsoft.com/en-us/library/office/apps/fp160966.aspx)
 * [Binding object](http://msdn.microsoft.com/en-us/library/office/apps/fp161045.aspx)
