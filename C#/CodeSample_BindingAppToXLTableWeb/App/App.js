@@ -11,7 +11,7 @@ var app = (function () {
     // Common initialization function (to be called from each page)
     app.initialize = function () {
         $('body').append(
-            '<div id="notification-message">' +
+            '<div class="ms-font-m" id="notification-message">' +
                 '<div class="padding">' +
                     '<div id="notification-message-close"></div>' +
                     '<div id="notification-message-header"></div>' +
