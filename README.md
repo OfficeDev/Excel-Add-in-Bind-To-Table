@@ -21,17 +21,17 @@ This sample requires the following:
 
 The Stock Ticker sample add-in app contains the following:
 
-* CodeSample_BindingAppToXLTable project.
-* CodeSample_BindingAppToXLTable.xml manifest file
-* Stocks.xlsx file that contains a table named "Stocks" on a spreadsheet named "Sheet1."
-* CodeSample_BindingAppToXLTableWeb project
-* Home.html file, which contains the HTML control for the add-in's user interface.
-* Home.js file, which contains the event handler for the Office.initialize event of the add-in.
-* UpdateTable.js file, which contains the self-executing anonymous function that creates the binding, adds an event handler to the binding, and contains all of the methods for getting and setting data from the binding.
+* [```CodeSample_BindingAppToXLTable```](C%23/CodeSample_BindingAppToXLTable) project.
+* [```CodeSample_BindingAppToXLTable.xml```](C%23/CodeSample_BindingAppToXLTable/CodeSample_BindingAppToXLTableManifest/CodeSample_BindingAppToXLTable.xml) manifest file
+* [```Stocks.xlsx```](C%23/CodeSample_BindingAppToXLTable/Stocks.xlsx) file that contains a table named "Stocks" on a spreadsheet named "Sheet1."
+* [```CodeSample_BindingAppToXLTableWeb```](C%23/CodeSample_BindingAppToXLTableWeb) project
+* [```Home.html```](C%23/CodeSample_BindingAppToXLTableWeb/App/Home/Home.html) file, which contains the HTML control for the add-in's user interface.
+* [```Home.js```](C%23/CodeSample_BindingAppToXLTableWeb/App/Home/Home.js) file, which contains the event handler for the Office.initialize event of the add-in.
+* [```UpdateTable.js```](C%23/CodeSample_BindingAppToXLTableWeb/Scripts/UpdateTable.js) file, which contains the self-executing anonymous function that creates the binding, adds an event handler to the binding, and contains all of the methods for getting and setting data from the binding.
 
 **Configure the sample**
 
-To configure the Stock Ticker, set the StartAction -> Start Document property of the CodeSample_BindingAppToTable project to 'Stocks.xslx'.
+To configure the Stock Ticker, set the StartAction -> Start Document property of the CodeSample_BindingAppToTable project to [```Stocks.xslx```](C%23/CodeSample_BindingAppToXLTable/Stocks.xlsx).
 
 **Build the sample**
 
@@ -40,7 +40,7 @@ Choose the F5 key to build and deploy the add-in.
 **Run and test the sample**
 
 1. Choose the F5 key to build and deploy the add-in.
-2. Insert the add-in into the Stocks.xlsx file when you debug the sample (Insert tab, Add-ins for Office button).
+2. Insert the add-in into the [```Stocks.xslx```](C%23/CodeSample_BindingAppToXLTable/Stocks.xlsx) file when you debug the sample (Insert tab, Add-ins for Office button).
 
  ***Note***
 
@@ -55,7 +55,7 @@ If the app fails to install, ensure that the XML in your AppManifest.xml file pa
 
 If you change the code in the StockTicker.getStockQuotes method to call an external stock quote service, be aware that cross-domain scripting restrictions still apply.
 
-If the app generates errors whenever you try to update the table, ensure that you have entered correct values for the tableName and bindingName variables in the UpdateTable.js file.
+If the app generates errors whenever you try to update the table, ensure that you have entered correct values for the tableName and bindingName variables in the [```UpdateTable.js```](C%23/CodeSample_BindingAppToXLTableWeb/Scripts/UpdateTable.js) file.
 
 **Change log**
 
