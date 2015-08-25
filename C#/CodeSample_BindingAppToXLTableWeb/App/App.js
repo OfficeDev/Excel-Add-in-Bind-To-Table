@@ -12,7 +12,7 @@ var app = (function () {
     app.initialize = function () {
         $('body').append(
             '<div class="ms-font-m" id="notification-message">' +
-                '<div class="padding">' +
+                '<div class="padding ms-font-l">' +
                     '<div id="notification-message-close"></div>' +
                     '<div id="notification-message-header"></div>' +
                     '<div id="notification-message-body"></div>' +
