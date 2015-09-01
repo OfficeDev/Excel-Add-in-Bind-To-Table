@@ -64,8 +64,6 @@
     <Content Include="App\Home\Home.css" />
     <Content Include="App\Home\Home.html" />
     <Content Include="App\Home\Home.js" />
-    <Content Include="Content\fabric.components.min.css" />
-    <Content Include="Content\fabric.min.css" />
     <Content Include="fonts\office365icons.svg" />
     <Content Include="Images\Close.png" />
     <Content Include="packages.config" />
@@ -266,6 +264,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
