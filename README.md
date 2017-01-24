@@ -13,9 +13,9 @@ For more information about the JavaScript API for Office and working with bindin
 
 This sample requires the following:
 
-* Word 2013 or Excel 2013
-* Visual Studio 2012 and Office Developer Tools for Visual Studio 2012
-* Internet Explorer 9 or Internet Explorer 10.
+* Excel 2013
+* Visual Studio 2012 or later and Office Developer Tools for Visual Studio
+* Internet Explorer 9 or later.
 
 **Key components**
 
@@ -47,11 +47,11 @@ Choose the F5 key to build and deploy the add-in.
  If you save the workbook while debugging, the add-in is persisted in the workbook. If you do so, you won't have to reinsert the  add-in into the workbook during future debugging sessions.
 
 3. In the add-in, choose Set binding.
-4. In the table on Book1.xlsx, make a change to one of the values in the first column in the right.
+4. In the table on Stocks.xlsx, make a change to one of the values in the first column in the right.
 
 **Troubleshooting**
 
-If the app fails to install, ensure that the XML in your AppManifest.xml file parses correctly.
+If the app fails to install, ensure that the XML in your CodeSample_BindingAppToXLTable.xml file parses correctly.
 
 If you change the code in the StockTicker.getStockQuotes method to call an external stock quote service, be aware that cross-domain scripting restrictions still apply.
 
