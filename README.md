@@ -68,3 +68,6 @@ If the app generates errors whenever you try to update the table, ensure that yo
 * [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/en-us/library/office/apps/fp123511.aspx)
 * [Bindings object](http://msdn.microsoft.com/en-us/library/office/apps/fp160966.aspx)
 * [Binding object](http://msdn.microsoft.com/en-us/library/office/apps/fp161045.aspx)
+
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
