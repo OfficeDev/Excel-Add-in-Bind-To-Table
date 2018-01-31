@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: Excel-Add-in-Bind-To-Table
+  path: ''
+  description: Demonstrates how to use the JavaScript API for Office to bind an app to a named table in Microsoft Excel 2013 or Microsoft Word 2013, extract data from the table, react to events in the table, and set data back into the table.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: JohnAustin-MSFT
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Excel
+    scenarios: []
