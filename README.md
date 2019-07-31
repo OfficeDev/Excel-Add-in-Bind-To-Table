@@ -1,17 +1,7 @@
----
-page_type: sample
-products:
-- office-excel
-- office-365
-languages:
-- javascript
-extensions:
-  contentType: samples
-  technologies:
-  - Add-ins
-  createdDate: 8/14/2015 10:59:03 AM
----
-# Excel-Add-in-Bind-To-Table
+# [ARCHIVED] Excel-Add-in-Bind-To-Table
+
+**Note:** This repo is archived and no longer actively maintained. Security vulnerabilities may exist in the project, or its dependencies. If you plan to reuse or run any code from this repo, be sure to perform appropriate security checks on the code or dependencies first. Do not use this project as the starting point of a production Office Add-in. Always start your production code by using the Office/SharePoint development workload in Visual Studio, or the [Yeoman generator for Office Add-ins](https://github.com/OfficeDev/generator-office), and follow security best practices as you develop the add-in.
+
  Demonstrates how to use the JavaScript API for Office to bind an add-in to a named table in Microsoft Excel 2013 or Microsoft Word 2013, extract data from the table, react to events in the table, and set data back into the table.
 
 **Description**
